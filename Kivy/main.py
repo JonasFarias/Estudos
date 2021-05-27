@@ -9,7 +9,9 @@ class Tela1(BoxLayout):
     def on_press_bt(self):
         janela.root_window.remove_widget(janela.root)
         janela.root_window.add_widget(Tela2())
-
+class SairDoJogo():
+    def on_press_bt(self):
+        janela.root_window(quit())
 class Tela2(BoxLayout):
 
     def on_press_bt(self):
